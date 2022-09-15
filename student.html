@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <h1>Student Enrollment FormS</h1>>
+    <section>
+        <div class="form_Name">
+            <form>
+                <div class="labels">
+                    <label for="name" class="inputs-labels">Name :</label>
+                    <input type="text" name="name" id="name" class="inputs" placeholder="Enter your Name">
+                </div>
+                <div class="labels"> 
+                    <label for="email" class="inputs-labels">Email-id:</label>
+                    <input type="email" name="email" id="email" class="inputs" placeholder=" Enter your email">
+                </div>
+                <div class="labels">
+                    <label for="website" class="inputs-labels">website : </label>
+                    <input type="url" name="website" id="website" class="inputs" placeholder="enter your url">
+                </div>
+                <div>
+                    <label for="image" class="inputs-labels">image link : </label>
+                    <input type="file" name="image" id="image" class="inputs">
+                </div>
+                <div>
+                    <label class="radio-labels">Gender:</label>
+                    <br>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </div>
+                <div>
+                    <label class="radio-labels">Skills :</label>
+                    <br>
+                    <input type="checkbox" id="skill1" name="skill1" value="HTML">
+                    <label for="skill1">HTML</label>
+                    <input type="checkbox" id="skill2" name="skill2" value="CSS">
+                    <label for="skill2">CSS</label>
+                    <input type="checkbox" id="skill3" name="skill3" value="JAVA-SCRIPT">
+                    <label for="skill3">JAVA-SCRIPT</label>
+                </div>
+                <div>
+                    <input type="submit" onclick="myfunction()" value="Enroll Student" class="enroll-btn">
+                    <input type="submit" value="Clear" class="clear-btn">
+                </div>
+            </form>
+        </div>
+        <div class="display">
+            <h2>Enrolled Students</h2>
+            <div class="cards">
+                
+            </div>
+        </div>
+    </section>
+   <script src="script.js"></script>
+</body>
+
+
+</html>

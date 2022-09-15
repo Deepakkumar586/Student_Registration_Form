@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body {
+    background: #9ec747;
+    
+   
+
+}
+h1 {
+    margin-top: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(208, 41, 55);
+    color: rgb(255, 255, 255);
+    padding: 0.7rem;
+}
+section {
+    padding: 1rem 0.5rem;
+    width: 90%;
+    margin: 0 auto;
+}
+form_Name  {
+    margin-bottom: 0.8rem;
+}
+.inputs-labels {
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-right: 1rem;
+}
+.radio-labels {
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-right: 9rem;
+}
+.inputs {
+    padding: 0.2rem;
+    width: 90%;
+}
+.labels input{ 
+    border-radius: 24px;
+    box-shadow: 2px 2px 3px;
+    border: none;
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+.enroll-btn{
+    padding: 10px;
+    background-color: rgb(216, 228, 221);
+    border: none;
+    background-color: #ffbf00;
+     display: block;
+    text-transform:initial;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px 2px;
+    border-radius: 14px;
+}
+.clear-btn {
+    margin: 10px  7px;
+    padding: 10px;
+    background-color: rgb(216, 228, 221);
+    border: none;
+    background-color: red;
+   font-weight: bold;
+    text-transform: initial;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px;
+    border-radius: 13px;
+}
+
+.display {
+    margin-top: 2rem;
+}
+h2 {
+    color: black;
+    text-align: center;
+    text-transform:calc();
+    margin-bottom: 1rem;
+}
+.display article {
+    margin-bottom: 1rem;
+}
+@media screen and (min-width: 768px) {
+    .form_Name {
+         width: 40%;
+    }
+    .display {
+        width: 60%;
+        margin-top: 0;
+        margin-left: 2rem;
+    }
+    section {
+        display: flex;
+    }
+}
+.card {
+    margin-left: 211px;
+    height: 147px;
+    border: none;
+    width: 53%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    box-shadow: 3px 2px 4px;
+    border-radius: 8px;
+}
+.card-body {
+    display: grid;
+    place-items: center;
+    text-transform: capitalize;
+    padding: 28px;
+    background-color: rgb(191, 182, 255);
+    color: rgb(9, 9, 9);
+}
+h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.email {
+    text-transform: lowercase;
+}
+.website {
+    text-transform: lowercase;
+}
+.image img {
+    width: 150px;
+    height: 150px;
+}
